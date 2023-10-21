@@ -14,6 +14,7 @@ Below is an image of the key devices used in this project
 ![image](https://github.com/samarthp3/LiDAR-Spatial-Scanner/assets/113307694/348f2d38-eb5d-47d2-8d0e-77533167db9d)
 
 **FEATURES**
+
 • Live data readings from ToF sensor to the microcontroller via I2C communication
 • Live data transmission from Microcontroller to PC via UART communication at 115200 BPS (bits per second) baud rate
 • 12 MHz clock speed operation
