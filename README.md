@@ -16,29 +16,17 @@ Below is an image of the key devices used in this project
 **FEATURES**
 
 • Live data readings from ToF sensor to the microcontroller via I2C communication
-
 • Live data transmission from Microcontroller to PC via UART communication at 115200 BPS (bits per second) baud rate
-
 • 12 MHz clock speed operation
-
 • On-board LED measurement (PN1) and data transmission status (PF4)
-
 • Input voltage supply range from 3.3V to 5V
-
 • 1-push button user interface to enable both rotation and the data acquisition process
-
 • Automated 3D plot generation using Python IDLE and Open3D
-
 • VL53L1X Time-of-Flight Sensor
-
     o Measure up to a 4m range
-    
     o 2.6V – 3.5V range of operating voltage
-    
     o 16-bit I2C distance readings (in mm)
-    
 • 28BYJ-48 Stepper Motor
-
     o 5V – 12V range of operating voltage
 
 ![image](https://github.com/samarthp3/LiDAR-Spatial-Scanner/assets/113307694/8c81d9ab-ef48-4dcc-8e51-23c6bef6e13c)
