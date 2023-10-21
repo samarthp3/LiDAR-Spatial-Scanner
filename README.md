@@ -4,6 +4,7 @@ This repository contains the files for a Integrated LiDAR Spatial Mapping Scanne
 FULL DETAILED REPORT (including set-up guide and device specifications) AVAILABLE ON REQUEST
 
 **ABOUT**
+
 The ILRSK is a kit which uses LiDAR to scan and map a 3-D visual of a room. It contains a variety of easily accessible components. The core component of the kit is the Texas Instrument MSP432E401Y Microcontroller. This device works with 1 external push button, a breadboard, and a VL53L1X Time of Flight (ToF) sensor mounted to the 28BYJ-48 with a ULN2003 driver to rotate 360° and capture data for a series of y-z planes one at a time. A script is then used to conjoin the planes and generate a 3D visual of the room.
 
 The entire system is connected to a PC which executes two python scripts for data acquisition and 3D model visualization. While running the data collection file, the ToF collects and transmits data via emitting a beam of light and keeping track travel time. It then uses the ADC process to obtain discrete values, which then is used to calculate object/target distance. This data, including distance, displacement, and angle, is sent to the microcontroller via I2C. This data is then transmitted via UART from the microcontroller to the PC. The scripts then convert the data into x, y, and z values which is then stored and used by the second script for 3D visualization.
