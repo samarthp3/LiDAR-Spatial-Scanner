@@ -16,6 +16,7 @@ Below is an image of the key devices used in this project
 **FEATURES**
 
 • Live data readings from ToF sensor to the microcontroller via I2C communication
+
 • Live data transmission from Microcontroller to PC via UART communication at 115200 BPS (bits per second) baud rate
 • 12 MHz clock speed operation
 • On-board LED measurement (PN1) and data transmission status (PF4)
